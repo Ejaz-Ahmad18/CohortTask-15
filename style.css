@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'helvetica neue';
+    
 }
 html,
 body {
@@ -11,5 +12,28 @@ body {
 }
 body{
     background-color: black;
+   
+}
+main{
+    height: 100%;
+     width: 100%; 
+      background-color: black;
     color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: chartreuse;
+    position: relative;
+    z-index: 9;
+}
+button:active{
+    scale: 0.95;
+    background-color: crimson;
 }
