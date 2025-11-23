@@ -74,7 +74,9 @@
  var main=document.querySelector('main')
  var btn=document.querySelector('button')
 
-let arr=["Hey! I am Ejaz","I am Student of Sheryians","Now I Learn How To Coding","Now I am Implementing Code","And The Code Are Executing Properly"]
+// let arr=["Hey! I am Ejaz","I am Student of Sheryians","Now I Learn How To Coding","Now I am Implementing Code","And The Code Are Executing Properly"]
+
+let arr=["❤️","🎀","☄️","💕",'🥰','🎈']
 
 
 btn.addEventListener('click', function(){
